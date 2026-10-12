@@ -1,0 +1,76 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Unity generated IDE/project files
+.vs/
+.idea/
+.vscode/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated metadata and caches
+sysinfo.txt
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.csproj.meta
+*.unityproj.meta
+*.sln.meta
+
+# Android and Gradle build output
+.gradle/
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.obb
+*.keystore
+*.jks
+*.buildreport
+
+# Native and platform build output
+*.exe
+*.appx
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.ipa
+
+# Local development and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Temporary reports and local troubleshooting logs
+buildError.md
+editModeTestError.md
+UnityTestRunner.log
+AssemblyValidation.log
+TestResults.xml
+
+# Preserve source and Unity metadata:
+# Assets/, Packages/, ProjectSettings/, QCAR/, *.meta, and project documentation
