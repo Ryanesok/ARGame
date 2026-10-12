@@ -1,3 +1,4 @@
+# Unity and project binary assets
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
 *.dae filter=lfs diff=lfs merge=lfs -text
@@ -21,3 +22,14 @@
 *.aar filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.dat filter=lfs diff=lfs merge=lfs -text
+
+# Keep Unity text assets diffable
+*.asset -filter -diff -merge
+*.prefab -filter -diff -merge
+*.unity -filter -diff -merge
+*.mat -filter -diff -merge
+*.meta -filter -diff -merge
+*.asmdef -filter -diff -merge
+*.json -filter -diff -merge
+*.cs -filter -diff -merge
+*.md -filter -diff -merge
